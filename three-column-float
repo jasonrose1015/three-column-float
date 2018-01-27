@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Two and Three Column Float</title>
+            <style type="text/css">
+                h1 {
+                    color: rgb(236, 14, 14);
+                    text-align: center;
+                    text-shadow: 1px 1px 1px #0000007a;
+                }
+                body {
+                    background-color: rgba(0, 0, 0, 0.356)
+                }
+                .column1 {
+                    float: left;
+                    width: 350px;
+                    margin: 1px;
+                    background-color: #ffffff;
+                    padding: 5px;
+                    border: 3px solid #000000;
+                }
+                .column2 {
+                    float: left;
+                    width: 300px;
+                    margin: 1px;
+                    background-color: #ffffff;
+                    padding: 5px;
+                    border: 3px solid #000000;
+                }
+                .column3 {
+                    float: left;
+                    width: 250px;
+                    margin: 1px;
+                    background-color: #ffffff;
+                    padding: 5px;
+                    border: 3px solid #000000;
+                }
+                .column4 {
+                    float: left;
+                    width:400px;
+                    margin: 1px;
+                    background-color: #ffffff;
+                    padding: 5px;
+                    border: 3px solid #000000;
+                }
+                .hero {
+                    width: 350px;
+                    height: 500px;
+                    margin: 0px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>The Asus Maximus X Hero Motherboard</h1>
+            <div class="column1">
+                    <p>Over 25 years of award-winning engineering experience delivers the perfect balance of performance and power   - Introducing the Z370 Series of motherboards by ASUS and ROG. Exclusively designed for 8th Generation Intel    Core Processors, our new Z370 boards are simply the BEST - that's Best-selling, Easy to use, Stable and         Trusted.</p>
+                    <p>Synchronize RGB LEDs and lighting effects across Aura Sync-enabled hardware and accessories to create dazzling themes in perfect harmony.</p>
+                    <p>Personalize your build with eye-catching designs and improve performance with ASUS - the first motherboard brand to introduce a dedicated mount to support 3D-printed parts.</p>
+            </div>
+            <div class="column2">
+                    <h3>Maximum Gaming Performance:</h3>
+                    <p>The award-winning overclocking (OC) design and UEFI BIOS of the ROG Maximus X series take gaming performance to the next level, combining 5-Way Optimization and 1-click overclocking with the speed of dual M.2 and front panel USB 3.1 Gen2 for the ultimate gaming experience.</p>
+                <h3>Maximum Gaming Audio:</h3>
+                    <p>ROG's integrated audio has been turned up to 11+ with the SupremeFX S1220 codec, an ESS ES9023P DAC, a Texas Instruments RC4850 op-amp and an exceptional 113dB signal-to-noise ratio on the line-in connection for flawless recording. ROG Exclusive enhancements like Sonic Radar and Sonic Studio keep you immersed in every fight.</p>
+                <h3>One-click Overclock and Cooling:</h3>
+                    <p>One click takes care of all that complex tuning. ASUS 5-Way Optimization makes your PC smart. It dynamically optimizes essential aspects of the system, providing overclocking and cooling profiles that are tailored for your rig.</p>
+            </div>
+            <div class="column3">
+                <h3>What's in the Box?</h3>
+                <ul>
+                        <li>User's manual</li>
+                        <li>4 x SATA 6Gb/s cable(s)</li>
+                        <li>1 x M.2 Screw Package</li>
+                        <li>1 x CPU installation tool</li>
+                        <li>1 x Supporting DVD</li>
+                        <li>1 x SLI HB BRIDGE(2-WAY-M)</li>
+                        <li>1 x ROG big sticker</li>
+                        <li>1 x Q-Connector</li>
+                        <li>1 x Extension Cable for RGB strips (80 cm)</li>
+                        <li>1 x Extension cable for Addressable LED</li>
+                        <li>1 x 3D printing mount package</li>
+                        <li>1 x ROG coaster(s)</li>
+                </ul>
+            </div>
+            <div class="column4">
+                <img src="/Users/jrose/Documents/HTML and CSS/CSS/HeroX.png" class="hero">
+            </div>
+        </body>
+    </html>
